@@ -1,0 +1,81 @@
+.app-header {
+  background-color: #fe609a;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-nav-opcoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 30px 12px;
+  font-weight: 20px;
+  gap: 12px;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 8px 12px;
+  color: #5f1507;
+}
+
+.header-nav-icones {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: auto;
+  padding: 30px 12px;
+  gap: 12px;
+}
+
+.header-nav-icone {
+  margin-left: 12px;
+  width: 30px;
+  height: 30px;
+}
+
+.header-divider {
+  display: inline-block;
+  width: 1px;
+  height: 32px; /* ajuste conforme necessário */
+  background: #444; /* cor do tracinho */
+  margin: 0 24px; /* espaço ao redor */
+  vertical-align: middle;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.logo-image {
+  height: 60px;
+  width: auto;
+}
+
+.header-search-input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 250px;
+  background-color: #ffe4ec;
+  color: #5f1507;
+  border: none; /* remove a borda */
+  box-shadow: none; /* remove sombra */
+  outline: none; /* remove borda ao focar */
+
+  &::placeholder {
+    color: #5f1507; /* troque pelo código da cor que quiser */
+    /* opcional */
+  }
+}
